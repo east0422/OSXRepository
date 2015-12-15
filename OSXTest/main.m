@@ -19,6 +19,8 @@ int main(int argc, const char * argv[]) {
         SignedByte b2 = 128;
         SignedByte b3 = b1 + b2;
         NSLog(@"%d just test",b3);
+        
+        NSLog(@"east aaaaaa");
   
     /**
          // 测试1
