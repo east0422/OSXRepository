@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		457AEC6A2499BBB2004A74CB /* MyTest+CategoryPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 457AEC692499BBB2004A74CB /* MyTest+CategoryPrivate.m */; };
 		C54F98BF1BE8F6480035E65D /* MyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C54F98BE1BE8F6480035E65D /* MyTest.m */; };
 		C5C2F01A1BD5472500DD8027 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C2F0191BD5472500DD8027 /* main.m */; };
 		C5C2F0251BD549E400DD8027 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C2F0241BD549E400DD8027 /* Dog.m */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		457AEC682499BBB2004A74CB /* MyTest+CategoryPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyTest+CategoryPrivate.h"; sourceTree = "<group>"; };
+		457AEC692499BBB2004A74CB /* MyTest+CategoryPrivate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MyTest+CategoryPrivate.m"; sourceTree = "<group>"; };
 		C54F98BC1BE8F61B0035E65D /* MyProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyProtocol.h; sourceTree = "<group>"; };
 		C54F98BD1BE8F6480035E65D /* MyTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTest.h; sourceTree = "<group>"; };
 		C54F98BE1BE8F6480035E65D /* MyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTest.m; sourceTree = "<group>"; };
@@ -70,6 +73,8 @@
 				C54F98BC1BE8F61B0035E65D /* MyProtocol.h */,
 				C54F98BD1BE8F6480035E65D /* MyTest.h */,
 				C54F98BE1BE8F6480035E65D /* MyTest.m */,
+				457AEC682499BBB2004A74CB /* MyTest+CategoryPrivate.h */,
+				457AEC692499BBB2004A74CB /* MyTest+CategoryPrivate.m */,
 			);
 			path = OSXTest;
 			sourceTree = "<group>";
@@ -113,6 +118,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = C5C2F00D1BD5472500DD8027;
@@ -131,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5C2F0251BD549E400DD8027 /* Dog.m in Sources */,
+				457AEC6A2499BBB2004A74CB /* MyTest+CategoryPrivate.m in Sources */,
 				C54F98BF1BE8F6480035E65D /* MyTest.m in Sources */,
 				C5C2F01A1BD5472500DD8027 /* main.m in Sources */,
 			);
