@@ -10,7 +10,6 @@
 
 #import <AppKit/AppKit.h>
 
-
 @implementation MyTest (CategoryPrivate)
 
 @end

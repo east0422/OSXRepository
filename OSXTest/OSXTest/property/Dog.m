@@ -11,7 +11,7 @@
 @implementation Dog
 
 - (void)setAge:(int)newAge {
-    NSLog(@"setAge:%d", newAge);
+    Log(@"setAge:%d", newAge);
     age = newAge;
 }
 

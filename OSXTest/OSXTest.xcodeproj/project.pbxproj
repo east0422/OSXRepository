@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4564213224C98E27009C82A5 /* BasicDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4564213124C98E27009C82A5 /* BasicDataType.m */; };
+		4564213824C99628009C82A5 /* Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 4564213724C99628009C82A5 /* Property.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4564213B24C99791009C82A5 /* ProtocolAndCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4564213A24C99791009C82A5 /* ProtocolAndCategory.m */; };
+		4564213E24C99824009C82A5 /* Thread.m in Sources */ = {isa = PBXBuildFile; fileRef = 4564213D24C99824009C82A5 /* Thread.m */; };
+		4564214224C9D57A009C82A5 /* Parent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4564214124C9D57A009C82A5 /* Parent.m */; };
+		4564214524C9D588009C82A5 /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = 4564214424C9D588009C82A5 /* Son.m */; };
+		4564214824C9D5C2009C82A5 /* Parent+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 4564214724C9D5C2009C82A5 /* Parent+Category.m */; };
+		4564214B24C9D5D7009C82A5 /* Son+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 4564214A24C9D5D7009C82A5 /* Son+Category.m */; };
 		457AEC6A2499BBB2004A74CB /* MyTest+CategoryPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 457AEC692499BBB2004A74CB /* MyTest+CategoryPrivate.m */; };
 		C54F98BF1BE8F6480035E65D /* MyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C54F98BE1BE8F6480035E65D /* MyTest.m */; };
 		C5C2F01A1BD5472500DD8027 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C2F0191BD5472500DD8027 /* main.m */; };
@@ -26,6 +34,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4564213024C98E27009C82A5 /* BasicDataType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicDataType.h; sourceTree = "<group>"; };
+		4564213124C98E27009C82A5 /* BasicDataType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicDataType.m; sourceTree = "<group>"; };
+		4564213424C99137009C82A5 /* OSXTest-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSXTest-PrefixHeader.pch"; sourceTree = "<group>"; };
+		4564213624C99628009C82A5 /* Property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Property.h; sourceTree = "<group>"; };
+		4564213724C99628009C82A5 /* Property.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Property.m; sourceTree = "<group>"; };
+		4564213924C99791009C82A5 /* ProtocolAndCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtocolAndCategory.h; sourceTree = "<group>"; };
+		4564213A24C99791009C82A5 /* ProtocolAndCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtocolAndCategory.m; sourceTree = "<group>"; };
+		4564213C24C99824009C82A5 /* Thread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Thread.h; sourceTree = "<group>"; };
+		4564213D24C99824009C82A5 /* Thread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Thread.m; sourceTree = "<group>"; };
+		4564213F24C9B985009C82A5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4564214024C9D57A009C82A5 /* Parent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parent.h; sourceTree = "<group>"; };
+		4564214124C9D57A009C82A5 /* Parent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Parent.m; sourceTree = "<group>"; };
+		4564214324C9D588009C82A5 /* Son.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
+		4564214424C9D588009C82A5 /* Son.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
+		4564214624C9D5C2009C82A5 /* Parent+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Parent+Category.h"; sourceTree = "<group>"; };
+		4564214724C9D5C2009C82A5 /* Parent+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Parent+Category.m"; sourceTree = "<group>"; };
+		4564214924C9D5D7009C82A5 /* Son+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Son+Category.h"; sourceTree = "<group>"; };
+		4564214A24C9D5D7009C82A5 /* Son+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Son+Category.m"; sourceTree = "<group>"; };
 		457AEC682499BBB2004A74CB /* MyTest+CategoryPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyTest+CategoryPrivate.h"; sourceTree = "<group>"; };
 		457AEC692499BBB2004A74CB /* MyTest+CategoryPrivate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MyTest+CategoryPrivate.m"; sourceTree = "<group>"; };
 		C54F98BC1BE8F61B0035E65D /* MyProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyProtocol.h; sourceTree = "<group>"; };
@@ -48,11 +74,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4564212C24C98D2F009C82A5 /* load */ = {
+			isa = PBXGroup;
+			children = (
+				4564214024C9D57A009C82A5 /* Parent.h */,
+				4564214124C9D57A009C82A5 /* Parent.m */,
+				4564214324C9D588009C82A5 /* Son.h */,
+				4564214424C9D588009C82A5 /* Son.m */,
+				4564214624C9D5C2009C82A5 /* Parent+Category.h */,
+				4564214724C9D5C2009C82A5 /* Parent+Category.m */,
+				4564214924C9D5D7009C82A5 /* Son+Category.h */,
+				4564214A24C9D5D7009C82A5 /* Son+Category.m */,
+			);
+			path = load;
+			sourceTree = "<group>";
+		};
+		4564212D24C98D7F009C82A5 /* basic */ = {
+			isa = PBXGroup;
+			children = (
+				4564213024C98E27009C82A5 /* BasicDataType.h */,
+				4564213124C98E27009C82A5 /* BasicDataType.m */,
+			);
+			path = basic;
+			sourceTree = "<group>";
+		};
+		4564212E24C98D99009C82A5 /* thread */ = {
+			isa = PBXGroup;
+			children = (
+				4564213C24C99824009C82A5 /* Thread.h */,
+				4564213D24C99824009C82A5 /* Thread.m */,
+			);
+			path = thread;
+			sourceTree = "<group>";
+		};
+		4564212F24C98DB5009C82A5 /* protocolandcategory */ = {
+			isa = PBXGroup;
+			children = (
+				C54F98BC1BE8F61B0035E65D /* MyProtocol.h */,
+				C54F98BD1BE8F6480035E65D /* MyTest.h */,
+				C54F98BE1BE8F6480035E65D /* MyTest.m */,
+				457AEC682499BBB2004A74CB /* MyTest+CategoryPrivate.h */,
+				457AEC692499BBB2004A74CB /* MyTest+CategoryPrivate.m */,
+				4564213924C99791009C82A5 /* ProtocolAndCategory.h */,
+				4564213A24C99791009C82A5 /* ProtocolAndCategory.m */,
+			);
+			path = protocolandcategory;
+			sourceTree = "<group>";
+		};
+		4564213524C9958C009C82A5 /* property */ = {
+			isa = PBXGroup;
+			children = (
+				C5C2F0231BD549E400DD8027 /* Dog.h */,
+				C5C2F0241BD549E400DD8027 /* Dog.m */,
+				4564213624C99628009C82A5 /* Property.h */,
+				4564213724C99628009C82A5 /* Property.m */,
+			);
+			path = property;
+			sourceTree = "<group>";
+		};
 		C5C2F00D1BD5472500DD8027 = {
 			isa = PBXGroup;
 			children = (
 				C5C2F0181BD5472500DD8027 /* OSXTest */,
 				C5C2F0171BD5472500DD8027 /* Products */,
+				4564213F24C9B985009C82A5 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,14 +152,13 @@
 		C5C2F0181BD5472500DD8027 /* OSXTest */ = {
 			isa = PBXGroup;
 			children = (
+				4564212D24C98D7F009C82A5 /* basic */,
+				4564213524C9958C009C82A5 /* property */,
+				4564212F24C98DB5009C82A5 /* protocolandcategory */,
+				4564212E24C98D99009C82A5 /* thread */,
+				4564212C24C98D2F009C82A5 /* load */,
 				C5C2F0191BD5472500DD8027 /* main.m */,
-				C5C2F0231BD549E400DD8027 /* Dog.h */,
-				C5C2F0241BD549E400DD8027 /* Dog.m */,
-				C54F98BC1BE8F61B0035E65D /* MyProtocol.h */,
-				C54F98BD1BE8F6480035E65D /* MyTest.h */,
-				C54F98BE1BE8F6480035E65D /* MyTest.m */,
-				457AEC682499BBB2004A74CB /* MyTest+CategoryPrivate.h */,
-				457AEC692499BBB2004A74CB /* MyTest+CategoryPrivate.m */,
+				4564213424C99137009C82A5 /* OSXTest-PrefixHeader.pch */,
 			);
 			path = OSXTest;
 			sourceTree = "<group>";
@@ -138,8 +222,16 @@
 			files = (
 				C5C2F0251BD549E400DD8027 /* Dog.m in Sources */,
 				457AEC6A2499BBB2004A74CB /* MyTest+CategoryPrivate.m in Sources */,
+				4564213824C99628009C82A5 /* Property.m in Sources */,
+				4564213E24C99824009C82A5 /* Thread.m in Sources */,
 				C54F98BF1BE8F6480035E65D /* MyTest.m in Sources */,
+				4564214224C9D57A009C82A5 /* Parent.m in Sources */,
+				4564214524C9D588009C82A5 /* Son.m in Sources */,
+				4564213224C98E27009C82A5 /* BasicDataType.m in Sources */,
 				C5C2F01A1BD5472500DD8027 /* main.m in Sources */,
+				4564214824C9D5C2009C82A5 /* Parent+Category.m in Sources */,
+				4564214B24C9D5D7009C82A5 /* Son+Category.m in Sources */,
+				4564213B24C99791009C82A5 /* ProtocolAndCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +318,8 @@
 		C5C2F01E1BD5472500DD8027 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OSXTest/OSXTest-PrefixHeader.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -233,6 +327,8 @@
 		C5C2F01F1BD5472500DD8027 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OSXTest/OSXTest-PrefixHeader.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

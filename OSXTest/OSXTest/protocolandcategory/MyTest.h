@@ -1,5 +1,5 @@
 //
-//  MyProtocol.h
+//  MyTest.h
 //  OSXTest
 //
 //  Created by fangdong on 15/11/3.
@@ -7,9 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MyProtocol.h"
 
-@protocol MyProtocol <NSObject>
+@interface MyTest : NSObject <MyProtocol>
 
-- (void)showInfo;
+/** 类自定义方法 */
+- (void)showInfo2;
 
 @end

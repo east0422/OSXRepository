@@ -16,16 +16,16 @@
 
 @implementation MyTest
 
-- (void)showInfo {
-    NSLog(@"east showInfo in MyProtocol");
+- (void)showInfo1 {
+    Log(@"");
 }
 
 - (void)showInfo2 {
-    NSLog(@"east showInfo2 in MyTest");
+    Log(@"");
 }
 
 - (void)showInfo3 {
-    NSLog(@"east showInfo3 in MyTest");
+    Log(@"");
 }
 
 @end

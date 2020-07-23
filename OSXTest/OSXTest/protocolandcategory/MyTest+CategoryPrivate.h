@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MyTest (CategoryPrivate)
 
-// 私有方法前向引用: 只申明MyTest的私有方法，不实现
+/** 分类私有方法前向引用: 分类中只申明原类的私有方法而不实现，从而实现调用原类的私有方法 */
 - (void)showInfo3;
 
 @end
