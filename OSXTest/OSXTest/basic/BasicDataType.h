@@ -18,6 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)testFloat;
 /** 数组加1，数组指针加1 */
 - (void)testArrPtr;
+/** mutableCopy与copy*/
+- (void)testCopy;
 
 @end
 

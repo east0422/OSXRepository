@@ -23,19 +23,20 @@ void threadTest(void);
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-//        basicDataTypeTest();
+        basicDataTypeTest();
 //        propertyTest();
 //        protocolAndCategoryTest();
-        threadTest();
+//        threadTest();
     }
     return 0;
 }
 
 void basicDataTypeTest() {
     BasicDataType *bdt = [[BasicDataType alloc] init];
-    [bdt testSignedByte];
-    [bdt testFloat];
-    [bdt testArrPtr];
+//    [bdt testSignedByte];
+//    [bdt testFloat];
+//    [bdt testArrPtr];
+    [bdt testCopy];
 }
 
 void propertyTest() {

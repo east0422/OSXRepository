@@ -10,6 +10,9 @@
 
 @protocol MyProtocol <NSObject>
 
+@required
+@property (nonatomic, copy) NSString *name;
+
 /** 协议方法 */
 - (void)showInfo1;
 
